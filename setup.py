@@ -3,7 +3,7 @@
 # <python_jsonschema_objects - An object wrapper for JSON Schema definitions>
 # Copyright (C) <2018-2018>  Chris Wacek <cwacek@gmail.com
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='flask-bourbon',
       description='Flask + Bourbon makes you swagger',
