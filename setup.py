@@ -16,6 +16,7 @@ setup(name='flask-bourbon',
       setup_requires=["setuptools>=18.0.0", 'setuptools_scm'],
       install_requires=[
           "python-jsonschema-objects~=0.3.2",
+          "pyyaml",
           "flask"
       ],
       classifiers=[
