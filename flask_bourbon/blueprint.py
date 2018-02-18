@@ -19,8 +19,8 @@ def index():
     definition = {
         "swagger": "2.0",
         "info": {
-            "title": flask.config.get("APPNAME", "Not specified"),
-            "version": flask.config.get("VERSION", "Not specified"),
+            "title": flask.current_app.config.get("APPNAME", "Not specified"),
+            "version": flask.current_app.config.get("VERSION", "Not specified"),
         },
         "host": request.host,
         "schemes": ["http"],
